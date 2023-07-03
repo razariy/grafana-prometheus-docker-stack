@@ -7,7 +7,7 @@
 
  or
 
-- Create a new directory (for example: <b>"monitoring"</b>), then create a new file <b>docker-compose.yml</b> and copy the .yml code file from here: 
+- Create a new directory (for example: <b>"monitoring"</b>), then create a new file <b>docker-compose.yml</b> and copy the .yml code file from [HERE!!!](https://github.com/razariy/grafana-prometheus-docker-stack/blob/main/docker-compose.yml)
 
 <b>2) Deploy stack:</b>
    
