@@ -1,3 +1,6 @@
+* Grafana: - <b>image: grafana/grafana:10.0.1-ubuntu</b>
+* Prometheus: - <b>image: prom/prometheus:v2.45.0</b>
+* Node-Exporter: - <b>image: prom/node-exporter:v1.6.0</b>
 
 <h1>For deploying Grafana, Prometheus, and Node Exporter, take these steps:</h1>
 
@@ -57,3 +60,6 @@ __________
 >>>
 >>>> Reload Prometheus config via this command:
 >>>> - `docker ps | grep prometheus | awk '{print $1}' | xargs docker kill -s SIGHUP`
+
+
+<h6>The material was taken from: https://github.com/digitalstudium/grafana-docker-stack</h6>
