@@ -62,4 +62,4 @@ __________
 >>>> - `docker ps | grep prometheus | awk '{print $1}' | xargs docker kill -s SIGHUP`
 
 
-<h6>The material was taken from: https://github.com/digitalstudium/grafana-docker-stack</h6>
+<h6>The material was taken from digitalstudium </h6>
