@@ -4,12 +4,12 @@
 #
 # ------------------------------------------------
 
-name: GitHubAction-Grafana
+name: My-GitHubAction-Grafana
 
 on:
  push:
    branches: 
-    - main
+   - main
 
 jobs:
   build:
