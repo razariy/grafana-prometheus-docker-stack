@@ -1,5 +1,5 @@
 Status of Last Deployment:<br>
-<img src="https://github.com/razariy/grafana-prometheus-docker-stack/workflows/GitHubAction-Grafana/badge.svg?branch=master"><br>
+<img src="https://github.com/razariy/grafana-prometheus-docker-stack/workflows/My-GitHubAction-Grafana/badge.svg?branch=master"><br>
 
 * Grafana: - <b>image: grafana/grafana:10.0.1-ubuntu</b>
 * Prometheus: - <b>image: prom/prometheus:v2.45.0</b>
