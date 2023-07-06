@@ -1,0 +1,23 @@
+# ------------------------------------------------
+#
+# GitHUb Action Grafana & Prometheus docker stack
+#
+# ------------------------------------------------
+
+name: GitHubAction-Grafana
+
+on:
+ push:
+   branches: 
+    - master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Git clone my repo
+      - uses: actions/checkout@v3
+      
+      - name: List current folder
+        run: ls -la
