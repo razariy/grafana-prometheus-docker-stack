@@ -8,11 +8,11 @@ name: My-GitHubAction-Grafana
 
 on:
  push:
-   branches: 
+   branches:
    - main
 
 jobs:
-  build:
+  my_build:
     runs-on: ubuntu-latest
 
     steps:
