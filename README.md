@@ -1,9 +1,12 @@
+---
 Status of Last Deployment:<br>
 <img src="https://github.com/razariy/grafana-prometheus-docker-stack/workflows/My-GitHubAction-Grafana/badge.svg?branch=master"><br>
 
+---
 * Grafana: - <b>image: grafana/grafana:10.0.1-ubuntu</b>
 * Prometheus: - <b>image: prom/prometheus:v2.45.0</b>
 * Node-Exporter: - <b>image: prom/node-exporter:v1.6.0</b>
+---
 
 <h1>For deploying Grafana, Prometheus, and Node Exporter, take these steps:</h1>
 
